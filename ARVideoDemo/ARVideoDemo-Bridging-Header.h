@@ -3,8 +3,8 @@
 //
 
 #import <easyar/engine.oc.h>
-#import <GLKit/GLKViewController.h>
-#import "ARVideo.h"
-#import "helloar.h"
-#import "VideoRenderer.h"
-#import "OpenGLView.h"
+//#import <GLKit/GLKViewController.h>
+//#import "ARVideo.h"
+//#import "helloar.h"
+//#import "VideoRenderer.h"
+//#import "OpenGLView.h"

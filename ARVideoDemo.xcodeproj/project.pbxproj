@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0F2EABA91F4884D100957BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EABA81F4884D100957BA5 /* AppDelegate.swift */; };
-		0F2EABAB1F4884D100957BA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EABAA1F4884D100957BA5 /* ViewController.swift */; };
 		0F2EABAE1F4884D100957BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2EABAC1F4884D100957BA5 /* Main.storyboard */; };
 		0F2EABB01F4884D100957BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2EABAF1F4884D100957BA5 /* Assets.xcassets */; };
 		0F2EABB31F4884D100957BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2EABB11F4884D100957BA5 /* LaunchScreen.storyboard */; };
@@ -24,7 +23,6 @@
 		0F2EABD31F48873600957BA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2EABD21F48873600957BA5 /* QuartzCore.framework */; };
 		0F2EABD51F48873D00957BA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2EABD41F48873D00957BA5 /* UIKit.framework */; };
 		0F2EABD71F48874200957BA5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2EABD61F48874200957BA5 /* CoreMotion.framework */; };
-		0F2EABDE1F4889DD00957BA5 /* OpenGLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2EABDD1F4889DD00957BA5 /* OpenGLView.swift */; };
 		0F83ECBE1F49BE51002CDAA2 /* helloar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83ECBC1F49BE51002CDAA2 /* helloar.m */; };
 		0F83ECC11F49BE6B002CDAA2 /* VideoRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83ECBF1F49BE6B002CDAA2 /* VideoRenderer.m */; };
 		0F83ECC41F49BE7A002CDAA2 /* ARVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83ECC31F49BE7A002CDAA2 /* ARVideo.m */; };
@@ -36,12 +34,12 @@
 		0F83ECD51F49C665002CDAA2 /* transparentvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F83ECCF1F49C665002CDAA2 /* transparentvideo.mp4 */; };
 		0F83ECD61F49C665002CDAA2 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F83ECD01F49C665002CDAA2 /* video.mp4 */; };
 		0F83ECD81F49C955002CDAA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F83ECD71F49C955002CDAA2 /* HomeViewController.swift */; };
+		0F83ECDB1F49CDCE002CDAA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F83ECDA1F49CDCE002CDAA2 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F2EABA51F4884D100957BA5 /* ARVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2EABA81F4884D100957BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F2EABAA1F4884D100957BA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F2EABAD1F4884D100957BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F2EABAF1F4884D100957BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F2EABB21F4884D100957BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 		0F2EABD21F48873600957BA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0F2EABD41F48873D00957BA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F2EABD61F48874200957BA5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		0F2EABDD1F4889DD00957BA5 /* OpenGLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGLView.swift; sourceTree = "<group>"; };
 		0F83ECBC1F49BE51002CDAA2 /* helloar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helloar.m; sourceTree = "<group>"; };
 		0F83ECBD1F49BE51002CDAA2 /* helloar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helloar.h; sourceTree = "<group>"; };
 		0F83ECBF1F49BE6B002CDAA2 /* VideoRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRenderer.m; sourceTree = "<group>"; };
@@ -75,6 +72,8 @@
 		0F83ECCF1F49C665002CDAA2 /* transparentvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = transparentvideo.mp4; sourceTree = "<group>"; };
 		0F83ECD01F49C665002CDAA2 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		0F83ECD71F49C955002CDAA2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0F83ECD91F49CDCE002CDAA2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F83ECDA1F49CDCE002CDAA2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,13 +122,13 @@
 				0F83ECCA1F49C665002CDAA2 /* assets */,
 				0F2EABBA1F4884FE00957BA5 /* Frameworks */,
 				0F2EABA81F4884D100957BA5 /* AppDelegate.swift */,
-				0F2EABAA1F4884D100957BA5 /* ViewController.swift */,
+				0F83ECD91F49CDCE002CDAA2 /* ViewController.h */,
+				0F83ECDA1F49CDCE002CDAA2 /* ViewController.m */,
 				0F2EABAC1F4884D100957BA5 /* Main.storyboard */,
 				0F2EABAF1F4884D100957BA5 /* Assets.xcassets */,
 				0F2EABB11F4884D100957BA5 /* LaunchScreen.storyboard */,
 				0F2EABB41F4884D100957BA5 /* Info.plist */,
 				0F2EABBD1F48859800957BA5 /* ARVideoDemo-Bridging-Header.h */,
-				0F2EABDD1F4889DD00957BA5 /* OpenGLView.swift */,
 				0F83ECD71F49C955002CDAA2 /* HomeViewController.swift */,
 			);
 			path = ARVideoDemo;
@@ -263,10 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F83ECC11F49BE6B002CDAA2 /* VideoRenderer.m in Sources */,
-				0F2EABAB1F4884D100957BA5 /* ViewController.swift in Sources */,
+				0F83ECDB1F49CDCE002CDAA2 /* ViewController.m in Sources */,
 				0F2EABA91F4884D100957BA5 /* AppDelegate.swift in Sources */,
 				0F83ECD81F49C955002CDAA2 /* HomeViewController.swift in Sources */,
-				0F2EABDE1F4889DD00957BA5 /* OpenGLView.swift in Sources */,
 				0F83ECBE1F49BE51002CDAA2 /* helloar.m in Sources */,
 				0F83ECC91F49C621002CDAA2 /* OpenGLView.m in Sources */,
 				0F83ECC41F49BE7A002CDAA2 /* ARVideo.m in Sources */,
@@ -402,7 +400,7 @@
 					"$(PROJECT_DIR)/ARVideoDemo",
 				);
 				INFOPLIST_FILE = ARVideoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.n1tesh.ARVideoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +422,7 @@
 					"$(PROJECT_DIR)/ARVideoDemo",
 				);
 				INFOPLIST_FILE = ARVideoDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.n1tesh.ARVideoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
