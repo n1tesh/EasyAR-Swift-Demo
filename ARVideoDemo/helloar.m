@@ -241,7 +241,6 @@ void render()
             if (imagetarget == nil) {
                 continue;
             }
-            video
             [box_renderer render:[camera projectionGL:0.2f farPlane:500.f] cameraview:[targetInstance poseGL] size:[imagetarget size]];
         }
     }
