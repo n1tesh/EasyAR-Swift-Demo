@@ -12,8 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var easyARKey = "gMn7qRR6BNTcJhIKDfParivoV7TtcmyIDblNehOfM4N7n1L01x0lZ6FWMh2nWln5kgDlp74fHYoNhtjokLLqcZnNCBUbdjL5VoQh5eWGIZsfg8KfuKLtNkVs7Q9sLczaKUftmONZOljUAkpIULcqFAvRK67csnWrUUO0SKNkvimgELRaDvhEqZAqMvvtyjZkPrKwqNXe"
-
+    var easyARKey = "" // Key here
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
